@@ -30,15 +30,15 @@
 
 1. 克隆项目到本地
 ```bash
-git clone [你的仓库URL]
+gh repo clone dxj20120122/me
 ```
 
 2. 打开项目
 ```bash
-cd [项目目录]
+cd me
 ```
 
-3. 使用本地服务器运行项目（例如使用VS Code的Live Server插件）
+3. 使用本地服务器运行项目（例如使用VS Code的Live Server插件 也可以直接点击index.html文件）
 
 ## 项目结构
 
