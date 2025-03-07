@@ -1,0 +1,174 @@
+<!--
+作者：DaiXiaojie
+GitHub：https://github.com/dxj20120122 | https://github.com/techMoujie
+哔哩哔哩：tech某杰 (https://space.bilibili.com/3546711827942289)
+邮箱：dxj20120122@outlook.com | 3835906098@qq.com
+QQ：3835906098
+
+项目描述：这是一个基于现代Web技术栈开发的个人网站项目，采用科技感设计风格，具有流畅的动画效果和响应式布局。
+-->
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站 - 科技感设计</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="nav-bar">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+
+        <!-- 首页部分 -->
+        <section id="home" class="hero">
+            <div class="glitch-container">
+                <h1 class="glitch" data-text="Welcome">Welcome</h1>
+            </div>
+            <div class="hero-content">
+                <h2 class="typing-text">我是一名开发者</h2>
+                <p class="hero-description">热爱创造，专注技术</p>
+            </div>
+            <div id="particles-js"></div>
+        </section>
+
+        <!-- 关于部分 -->
+        <section id="about" class="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>作为一名充满激情的开发者，我致力于创造优秀的数字体验。</p>
+                    <p>我热爱学习新技术，并将其应用到实际项目中。</p>
+                </div>
+                <div class="tech-stack">
+                    <div class="tech-item">HTML5</div>
+                    <div class="tech-item">CSS3</div>
+                    <div class="tech-item">JavaScript</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技能部分 -->
+        <section id="skills" class="skills">
+            <h2>技能专长</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>前端开发</h3>
+                    <div class="skill-bar" data-level="90"></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>响应式设计</h3>
+                    <div class="skill-bar" data-level="85"></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>性能优化</h3>
+                    <div class="skill-bar" data-level="80"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目部分 -->
+        <section id="projects" class="projects">
+            <h2>项目展示</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <a href="https://github.com/dxj20120122/ollamaModelWebUI" class="project-link" target="_blank">
+                        <div class="project-image"></div>
+                        <h3>ollamaModelWebUI</h3>
+                        <p>Ollama模型Web界面</p>
+                        <p class="project-description">基于Ollama的本地大语言模型Web交互界面，支持多模型管理和对话。使用Vue.js和Element Plus构建。</p>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://github.com/dxj20120122/randomRollCall" class="project-link" target="_blank">
+                        <div class="project-image"></div>
+                        <h3>randomRollCall</h3>
+                        <p>随机点名系统</p>
+                        <p class="project-description">现代化的随机点名系统，支持自定义名单和动画效果。采用HTML5、CSS3和JavaScript开发。</p>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://github.com/dxj20120122/me" class="project-link" target="_blank">
+                        <div class="project-image"></div>
+                        <h3>me</h3>
+                        <p>个人主页项目</p>
+                        <p class="project-description">具有科技感设计的个人展示网站，展现专业技能和项目经验。使用现代前端技术栈开发。</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系部分 -->
+        <section id="contact" class="contact">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">👨‍💻</span>
+                        <div class="contact-text">
+                            <h3>姓名</h3>
+                            <p>DaiXiaojie</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📺</span>
+                        <div class="contact-text">
+                            <h3>哔哩哔哩</h3>
+                            <a href="https://space.bilibili.com/3546711827942289" target="_blank">tech某杰</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">💻</span>
+                        <div class="contact-text">
+                            <h3>GitHub</h3>
+                            <div class="github-accounts">
+                                <a href="https://github.com/dxj20120122" target="_blank">主号：dxj20120122</a>
+                                <a href="https://github.com/techMoujie" target="_blank">小号：techMoujie</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <div class="contact-text">
+                            <h3>邮箱</h3>
+                            <div class="email-accounts">
+                                <a href="mailto:dxj20120122@outlook.com">主邮箱：dxj20120122@outlook.com</a>
+                                <a href="mailto:3835906098@qq.com">备用邮箱：3835906098@qq.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">💬</span>
+                        <div class="contact-text">
+                            <h3>QQ</h3>
+                            <a href="tencent://message/?uin=3835906098" target="_blank">3835906098</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
+    </div>
+
+    <script src="particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
